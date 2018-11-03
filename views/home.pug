@@ -1,0 +1,57 @@
+extends layout
+
+block content
+  //- h1 BedMD 
+  //- p.lead Your personal bedside doctor and much more
+  //- hr    
+  section
+    .container
+      .row.mbr-justify-content-center
+        .col-lg-6.mbr-col-md-10
+          .wrap
+            .ico-wrap
+              span.mbr-iconfont.fa-envira.fab
+            .text-wrap.vcenter
+              h2.mbr-fonts-style.mbr-bold.mbr-section-title3.display-5
+                | Enriched 
+                span Personal Environment
+              p.mbr-fonts-style.text1.mbr-text.display-6
+                | Here you will find activities, training excercises, practice and stress releave, together with your medical team.
+              p.mbr-fonts-style.text1.mbr-text.display-6
+                a.btn.btn-raised(href='/enrichedEnv', role='button') To your personal Area »  
+        .col-lg-6.mbr-col-md-10
+          .wrap
+            .ico-wrap
+              span.mbr-iconfont.fa-phone-square.fas
+            .text-wrap.vcenter
+              h2.mbr-fonts-style.mbr-bold.mbr-section-title3.display-5
+                | Contact 
+                span Your Medical Team
+              p.mbr-fonts-style.text1.mbr-text.display-6
+                | Have any questions for your medical team? here is the place to find every staff member treating you and ask them anything you need.
+              p.mbr-fonts-style.text1.mbr-text.display-6
+                a.btn.btn-raised(href='/contactTeam', role='button') Contact Medical Team »
+        .col-lg-6.mbr-col-md-10
+          .wrap
+            .ico-wrap
+              span.mbr-iconfont.fa-medkit.fas
+            .text-wrap.vcenter
+              h2.mbr-fonts-style.mbr-bold.mbr-section-title3.display-5
+                | Personal 
+                span Care
+              p.mbr-fonts-style.text1.mbr-text.display-6
+                | This is your personal independant care area. In here you will see all the treatments you can do on your own to imrpove your health.
+              p.mbr-fonts-style.text1.mbr-text.display-6
+                a.btn.btn-raised(href='/personalArea', role='button') To your personal care area »
+        .col-lg-6.mbr-col-md-10
+          .wrap
+            .ico-wrap
+              span.mbr-iconfont.fa-info-circle.fas
+            .text-wrap.vcenter
+              h2.mbr-fonts-style.mbr-bold.mbr-section-title3.display-5
+                | Is there anything missing? 
+                span tell us
+              p.mbr-fonts-style.text1.mbr-text.display-6
+                | Please send us a message according to the Contact Form and we will get back to you as soon as possible :)
+              p.mbr-fonts-style.text1.mbr-text.display-6
+                a.btn.btn-raised(href='/contactUs', role='button') Contact US »
