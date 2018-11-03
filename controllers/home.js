@@ -35,3 +35,12 @@ exports.getContactTeam = (req, res) => {
     title: 'Contact Medical Team'
   });
 };
+/**
+ * GET /
+ * Team page.
+ */
+exports.getTeam = (req, res) => {
+  res.render('team', {
+    title: 'Team'
+  });
+};

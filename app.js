@@ -146,6 +146,7 @@ app.get('/enrichedEnv', homeController.getEnrichedEnv);
 app.get('/contactUs', contactController.getContact);
 app.get('/personalArea', homeController.getPersonalArea);
 app.get('/contactTeam', homeController.getContactTeam);
+app.get('/team', homeController.getTeam);
 
 
 /**
